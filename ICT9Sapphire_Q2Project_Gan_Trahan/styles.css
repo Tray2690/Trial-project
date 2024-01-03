@@ -1,0 +1,199 @@
+h1 {
+ color:forestgreen;
+ }
+
+ section{          
+ 	background-image:url(https://www.jonnymelon.com/wp-content/uploads/2019/09/balicasag-island-bohol-15.jpg);
+ 	background-attachment: fixed;
+ }
+
+.product{
+	text-shadow: 2px 0px 5px rgba(0,0,0,0.62);
+	background-image:linear-gradient(to bottom, #00cc00 0%, #ff99cc 100%);
+	border:3px solid black;
+	width:450px;
+	background-color:#FF6E00;
+	padding:30px;
+	margin:10px;
+	}
+
+img{
+  width:450px;
+  }
+
+.main{
+	display:inline-flex;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center ;
+	}
+
+.header{
+	color:white;
+	padding:20px;
+	background-image:linear-gradient(background: rgb(6,36,0);
+	background-color:lightbrown;
+	}
+
+.footer{
+	background-color:lightbrown;
+	padding:20px;
+	}
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 1em 1em;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "PHILIPPINETARSIERSANCTUARYIMG BLOODPACTSHRINEIMG CHOCOLATEHILLSIMG"
+    "PHILIPPINETARSIERSANCTUARY BLOODPACTSHRINE CHOCOLATEHILLS"
+    "HINAGDANANCAVEIMG BACLAYONCHURCHIMG LOBOCRIVERCRUISEIMG"
+    "HINAGDANANCAVE BACLAYONCHURCH LOBOCRIVERCRUISE";
+}
+
+.PHILIPPINETARSIERSANCTUARYIMG { 
+	grid-area: PHILIPPINETARSIERSANCTUARYIMG; 
+	text-shadow: 2px 0px 5px rgba(0,0,0,0.62);
+	background-image:linear-gradient(to bottom, #00cc00 0%, #ff99cc 100%);
+	border:3px solid black;
+	width:450px;
+	background-color:#FF6E00;
+	padding:30px;
+	margin:10px;
+}
+
+.PHILIPPINETARSIERSANCTUARY { 
+	grid-area: PHILIPPINETARSIERSANCTUARY; 
+	text-shadow: 2px 0px 5px rgba(0,0,0,0.62);
+	background-image:linear-gradient(to bottom, #00cc00 0%, #ff99cc 100%);
+	border:3px solid black;
+	width:450px;
+	background-color:#FF6E00;
+	padding:30px;
+	margin:10px;
+}
+
+.BLOODPACTSHRINE { 
+	grid-area: BLOODPACTSHRINE; 
+	text-shadow: 2px 0px 5px rgba(0,0,0,0.62);
+	background-image:linear-gradient(to bottom, #00cc00 0%, #ff99cc 100%);
+	border:3px solid black;
+	width:450px;
+	background-color:#FF6E00;
+	padding:30px;
+	margin:10px;
+}
+
+.BLOODPACTSHRINEIMG { 
+	grid-area: BLOODPACTSHRINEIMG; 
+	text-shadow: 2px 0px 5px rgba(0,0,0,0.62);
+	background-image:linear-gradient(to bottom, #00cc00 0%, #ff99cc 100%);
+	border:3px solid black;
+	width:450px;
+	background-color:#FF6E00;
+	padding:30px;
+	margin:10px;
+}
+
+.CHOCOLATEHILLS { 
+	grid-area: CHOCOLATEHILLS; 
+	text-shadow: 2px 0px 5px rgba(0,0,0,0.62);
+	background-image:linear-gradient(to bottom, #00cc00 0%, #ff99cc 100%);
+	border:3px solid black;
+	width:450px;
+	background-color:#FF6E00;
+	padding:30px;
+	margin:10px;
+}
+
+.CHOCOLATEHILLSIMG { 
+	grid-area: CHOCOLATEHILLSIMG; 
+	text-shadow: 2px 0px 5px rgba(0,0,0,0.62);
+	background-image:linear-gradient(to bottom, #00cc00 0%, #ff99cc 100%);
+	border:3px solid black;
+	width:450px;
+	background-color:#FF6E00;
+	padding:30px;
+	margin:10px;
+}
+
+.HINAGDANANCAVEIMG { 
+	grid-area: HINAGDANANCAVEIMG; 
+	text-shadow: 2px 0px 5px rgba(0,0,0,0.62);
+	background-image:linear-gradient(to bottom, #00cc00 0%, #ff99cc 100%);
+	border:3px solid black;
+	width:450px;
+	background-color:#FF6E00;
+	padding:30px;
+	margin:10px;
+}
+
+.BACLAYONCHURCHIMG { 
+	grid-area: BACLAYONCHURCHIMG; 
+	text-shadow: 2px 0px 5px rgba(0,0,0,0.62);
+	background-image:linear-gradient(to bottom, #00cc00 0%, #ff99cc 100%);
+	border:3px solid black;
+	width:450px;
+	background-color:#FF6E00;
+	padding:30px;
+	margin:10px;
+}
+
+.LOBOCRIVERCRUISEIMG { 
+	grid-area: LOBOCRIVERCRUISEIMG; 
+	text-shadow: 2px 0px 5px rgba(0,0,0,0.62);
+	background-image:linear-gradient(to bottom, #00cc00 0%, #ff99cc 100%);
+	border:3px solid black;
+	width:450px;
+	background-color:#FF6E00;
+	padding:30px;
+	margin:10px;
+}
+
+.LOBOCRIVERCRUISE {
+	grid-area: LOBOCRIVERCRUISE; 
+	text-shadow: 2px 0px 5px rgba(0,0,0,0.62);
+	background-image:linear-gradient(to bottom, #00cc00 0%, #ff99cc 100%);
+	border:3px solid black;
+	width:450px;
+	background-color:#FF6E00;
+	padding:30px;
+	margin:10px;
+}
+
+.BACLAYONCHURCH { 
+	grid-area: BACLAYONCHURCH; 
+	text-shadow: 2px 0px 5px rgba(0,0,0,0.62);
+	background-image:linear-gradient(to bottom, #00cc00 0%, #ff99cc 100%);
+	border:3px solid black;
+	width:450px;
+	background-color:#FF6E00;
+	padding:30px;
+	margin:10px;
+}
+
+.HINAGDANANCAVE { 
+	grid-area: HINAGDANANCAVE; 
+	text-shadow: 2px 0px 5px rgba(0,0,0,0.62);
+	background-image:linear-gradient(to bottom, #00cc00 0%, #ff99cc 100%);
+	border:3px solid black;
+	width:450px;
+	background-color:#FF6E00;
+	padding:30px;
+	margin:10px;
+}
+message.txt
+4 KB
+
+
+
+
+
+
+
+
+
+
+
+
+	
